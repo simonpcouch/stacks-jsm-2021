@@ -1,0 +1,50 @@
+Alt text for slides on the tidymodels stacks package. Slides will be described in order.
+
+1. Title slide, showing the package's hex sticker and the talk title. The hex sticker shows a stack of pancakes on a two-tone blue background. The talk is titled "Stacked Ensembling with Tidy Data Principles." The background is white, with black text.
+
+2. A hand-drawn version of the previous title slide.
+
+3. A white blank section slide with my twitter handle @simonpcouch in the bottom right.
+
+4. The next slides iteratively add elements to a diagram. The diagram is titled "R development ecosystems." A plain rectangle fills the slide, hand-drawn in black.
+
+5. A sub-rectangle with the title "base" is added inside of the larger rectangle on the right.
+
+6. A sub-rectangle with the title "tidyverse" is added inside of the larger rectangle on the left.
+
+7. The dplyr and ggplot hex stickers are added inside of the tidyverse rectangle.
+
+8. A sub-rectangle with the title "tidymodels" is added inside of the tidyverse rectangle.
+
+9. The infer and broom hex stickers are added inside of the tidymodels rectangle.
+
+10. The stacks hex sticker is added inside of the tidymodels rectangle.
+
+11. A blank section slide, with the same twitter handle at simon p couch in the bottom right corner.
+
+12. A pair of hand-drawn, blank axes are added in the shape of an L in the center of the slide.
+
+13. The slides are labeled x and y with handwriting.
+
+14. A set of points is added to form a scatterplot. The points are all black and hand-drawn, and present a moderately strong, positive correlation.
+
+15. A light green line of best fit is added through the points, labeled "linear."
+
+16. A curvy, orange line is added through the points, labeled "nonparametric."
+
+17. A dark green line is added through the points, averaging the values of the linear and nonparametric lines, labeled "ensemble."
+
+18. A blank section slide, with the same twitter handle at simon p couch in the bottom right corner.
+
+19. A row of 3 rectangles are added to the top of the slide, labeled "Model Definitions." In order: a salmon rectangle, labeled "K N N Model," a tan rectangle, labeled "linear regression model," and a green rectangle, labeled "neural network model."
+
+20. Text is added to the left of the diagram, reading "resample candidate ensemble from model definitions." Arrows pass each rectangle through a text box labeled "resamples," forming a new row of rectangles labeled "candidate members." In this row, several smaller rectangles correspond to the model definition above them, and are labeled with the same colors. There are four rectangles corresponding the K N N model, 1 for the linear regression, and 7 for the neural network.
+
+21. More text is added to the left of the diagram, reading "collect the validation set 
+predictions for each candidate." A new row is added to the diagram below the existing ones, labeled "data stack." The data stack is represented as a table, with the first column labeled "outcome," and the remaining columns corresponding to candidate members in the row above. They are colored according to their corresponding candidate members. The diagram spans the top half of the slide.
+
+22. More text is added to the left of the diagram, reading "estimate the stacking coefficients for each candidate." A new row is added to the diagram below the existing ones, labeled "stacking coefficients." For each column in the data stack above, a rectangle is either colored-in with the same color as in the data stack or left blank. Each rectangle has a number above it—the blank rectangles have a zero, the colored-in on have a non-zero number.
+
+23. More text is added to the left of the diagram, reading "train each candidate with nonzero stacking coefficients." A new row is added to the diagram below the existing ones, labeled "members." The colored-in rectangles in the stacking coefficients row above now have a corresponding, colored-in pentagon, representing the trained ensemble members. The diagram spans the whole page.
+
+24. The deck returns to the original title slide, with the talk title and package hex sticker.
